@@ -1,0 +1,10 @@
+twitter_api:
+  consumer_key: c0NsUm3RkEy # your Twitter API consumer key - see README for how to get this
+  consumer_secret: CoNsUm3Rs3crEt # your Twitter API consumer secret token - see README for how to get this
+  access_token: tOkEn # the access token for your Twitter app - see README for how to get this
+  token_secret: sEcReT # the token secret for your Twitter app - see README for how to get this
+
+twitter_screen_name: twitter # the screen name of the Twitter account you want to mock (without the @ symbol)
+recent_interval_seconds: 120 # two minutes - you can change this to be how often you run this program, but to be
+                             # careful not to exceed the Twitter API rate limit
+est_max_tweets_in_interval: 12 # the number of tweets to retrieve every time this program is run
